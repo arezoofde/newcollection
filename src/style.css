@@ -1,0 +1,115 @@
+body {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.banner {
+  background-image: url("./pic/Frame.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  background-attachment: fixed;
+  width: 100%;
+  height: 600px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 8%;
+  padding-inline: 10px;
+  border-radius: 50px;
+  border: 2px solid gray;
+}
+.right_H {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 25%;
+}
+.left_H {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 25%;
+}
+.collection {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  color: blueviolet;
+}
+.comment {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+
+.arrivals {
+  padding: 5px;
+  justify-content: space-around;
+  width: 95%;
+  height: 300px;
+  margin-block: 90px;
+}
+.img_arrivals {
+  width: 20%;
+  height: 200px;
+}
+.info_arrivals {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: space-between;
+  padding: 5px;
+}
+.story {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 90%;
+}
+
+.item-img {
+  border-radius: 10%;
+}
+.item-story {
+  font-size: large;
+  text-align: justify;
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+}
+.all-collection {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 10px;
+  grid-template-rows: repeat(2, 177px);
+}
+.items-one{
+
+grid-row-start: 1;
+grid-row-end:   3;
+}
+.items-two {
+  grid-column: 2;
+  grid-row: 1;
+ 
+}
+.items-three{
+  grid-column: 2;
+  grid-row: 2;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: repeat(3,100px);
+  width: 90%;
+}
